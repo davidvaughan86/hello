@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: .5fr .5fr 1fr 1fr;
+    grid-template-areas: 
+
+    'header header'
+    'navbar navbar'
+    'profile messageBoard'
+    'profile messageBoard'
+    
+    
+    
+    
+    ;
+    height: 100vh
+}
+
+.header {
+    grid-area: header;
+}
+
+.messageBoard {
+ grid-area: messageBoard;
+}
+
+.profile {
+    grid-area: profile;
+}
+
+.navbar {
+grid-area: navbar;
+}
